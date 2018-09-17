@@ -12,32 +12,32 @@
   <view class='top'>个人资料</view>
   <view class='bottom'>
     <view class='left'>
-      <text>用户ID</text><text class='as'>:</text>
+      <text>用户ID： </text>
       <text>{{userInfo.nickname}}</text>
     </view>
   </view>
 
   <view class='bottom'>
     <view class='left'>
-      <text>淘宝账号</text><text class='as'>:</text>
+      <text>淘宝账号：</text>
       <input type='text' name="name" value="{{taobao.name}}" placeholder='请填写你的淘宝账号'></input>
     </view>
   </view>
   <view class='bottom'>
     <view class='left'>
-      <text>账号等级</text><text class='as'>:</text>
+      <text>账号等级：</text>
       <input type='text' name="level" value="{{taobao.level}}" placeholder='请填写你的账号等级'></input>
     </view>
   </view>
   <view class='bottom'>
     <view class='left'>
-      <text>账号注册年限</text><text class='as'>:</text>
+      <text>账号注册年限：</text>
       <input type='text' name="year" value="{{taobao.year}}" placeholder='请填写你的账号注册年限'></input>
     </view>
   </view>
   <view class='bottom'>
     <view class='left'>
-      <text>淘气值</text><text class='as'>:</text>
+      <text>淘气值：</text>
       <input type='text' name="tq" value="{{taobao.tq}}" placeholder='请填写你的淘气值'></input>
     </view>
   </view>
@@ -49,7 +49,7 @@
   </view>
   <view class='bottom'>
     <view class='left'>
-      <text space="emsp">职业</text><text class='as'>:</text>
+      <text space="emsp">职  业：</text>
       <input type='text' name="professional" value="{{taobao.professional}}" placeholder='请填写你的真实职业'></input>
     </view>
   </view>
@@ -91,7 +91,7 @@
   </view>
    <view class='bottom'>
     <view class='left'>
-      <text>审图联系方式</text><text class='as'>:</text>
+      <text>审图联系方式:</text>
       <input type='text' name="qq" value="{{taobao.qq}}" placeholder='请填写你的QQ账号'></input>
     </view>
   </view>

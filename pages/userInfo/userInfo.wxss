@@ -1,5 +1,4 @@
 /* pages/my_data/my_data.wxss */
-
 .heared {
   width: 100%;
   height: 360rpx;
@@ -21,6 +20,10 @@
   overflow: hidden;
   margin: 0 auto;
 }
+.bottom .left .as {
+  width: 0;
+  margin-right: 34rpx;
+}
 
 .heared .box .tu image {
   width: 100%;
@@ -33,12 +36,12 @@
   color: #292624;
 }
 
-.conten {
+
+.conten{
   background: #fff;
   padding: 0 32rpx;
 }
-
-.conten .top {
+.conten .top{
   padding: 25rpx 0;
   font-size: 32rpx;
   color: #292624;
@@ -46,18 +49,17 @@
   border-bottom: 1rpx solid #b5b5b5;
 }
 
-.conten .bottom .cont {
+.conten .bottom .cont{
   padding: 25rpx 28rpx;
   font-size: 30rpx;
   color: #292624;
-  border-bottom: 1rpx solid #b5b5b5;
+  border-bottom:1rpx solid #b5b5b5; 
 }
-
 .conten .cont {
   /* padding: 26rpx 0; */
   border-bottom: 1rpx solid #eee;
   display: flex;
-  justify-content: right;
+  justify-content:right;
   height: 82rpx;
   line-height: 82rpx;
 }
@@ -68,56 +70,70 @@
   margin-top: 16rpx;
 }
 
-.bottom {
-  padding: 25rpx 28rpx;
-  display: flex;
-  flex-wrap: wrap;
-  border-bottom: 1rpx solid #b5b5b5;
-}
 
-.bottom .left text {
+.bottom{
+  padding:25rpx 28rpx;
+  display: flex;
+  flex-wrap:wrap; 
+    border-bottom: 1rpx solid #b5b5b5;
+}
+.bottom .left text{
   float: left;
-  margin-right: 10rpx;
   height: 40rpx;
   font-size: 30rpx;
-  display: inline-block;
-  width: 185rpx;
+  display:inline-block;
+  width: 240rpx;
   text-align: justify;
 }
-
-.bottom .left .as {
-  width: 0;
-  margin-right: 34rpx;
-}
-
-#text {
+#text{
   width: 140rpx;
   display: flex;
   justify-content: space-between;
 }
-
-.bottom .left text::after {
+.bottom .left text::after{
   content: '';
-  display: inline-block;
-  padding-left: 100%;
+  display:inline-block;
+  width: 140rpx;
+  text-align: justify;
 }
-
-.bottom .left view {
-  margin-left: 30rpx;
+.bottom .left view{
+  margin-left:30rpx;
   width: 250rpx;
   height: 30rpx;
   /* background: red; */
   float: left;
 }
-
-.bottom .left input {
-  width: 345rpx;
+.bottom .left input{
+  width: 300rpx;
   height: 40rpx;
   color: #666;
   font-size: 26rpx;
   line-height: 40rpx;
 }
+.footer{
+    background: #fff;
+      padding: 30rpx;
+      box-sizing: border-box;
+      border: 1px dashed #b5b5b5;
+}
+.tu{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 
+}
+.tu .tu1{
+  width: 160rpx;
+height:190rpx;
+
+  display: inline-block;
+  margin-right:30rpx;
+  border: 1rpx solid #000;
+}
+.tu .tu1 image{
+  width: 100%;
+  height: 100%;
+}
 .footer .button{
   width: 30rpx;
   height: 30rpx;

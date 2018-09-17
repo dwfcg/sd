@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="25624d19-2ab1-46d9-b769-86b3de3b8cb3" name="Revert &quot;Revert &quot;Initial commit&quot;&quot;" comment="Revert &quot;Revert &quot;Initial commit&quot;&quot;&#10;&#10;This reverts commit 02d0880" />
+    <list id="71cf752f-3e2f-4d31-9aae-42fce4215fba" name="Revert &quot;初始化刷客&quot;" comment="Revert &quot;初始化刷客&quot;&#10;&#10;This reverts commit 5e8c08c" />
+    <list default="true" id="bbc6d442-47ce-4bf7-9a35-0324e478a5b7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/cc-plus-square(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/dustbin@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/gou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/home - click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/my - click.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/vip/vip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/vip/vip.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/vip/vip.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/vip/vip.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/album/album-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/album/album.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/album/album.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/album/album.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/album/album.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/extract/extract-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/extract/extract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/extract/extract.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/extract/extract.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/extract/extract.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/guide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/guide.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/guide.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/guide/guide.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/task/task-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/task/task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/task/task.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/task/task.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/task/task.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/user.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userInfo/userInfo-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userInfo/userInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userInfo/userInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userInfo/userInfo.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userInfo/userInfo.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip/vip-model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip/vip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip/vip.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip/vip.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip/vip.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip1/vip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip1/vip.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip1/vip.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vip1/vip.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/token.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbc6d442-47ce-4bf7-9a35-0324e478a5b7" name="Default" comment="" />
+      <created>1537174580944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537174580944</updated>
+      <workItem from="1537174582695" duration="266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="266000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946004" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32982457" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

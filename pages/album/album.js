@@ -45,7 +45,6 @@ Page({
    */
   onShow: function () {
     let userInfo = wx.getStorageSync('userInfo'),img;
-    console.log(userInfo);
     img=userInfo.show_img;
     this.setData({
       img:img
