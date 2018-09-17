@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/album/album",
+    "pages/userInfo/userInfo",
+    "pages/task/task",
+    "pages/vip1/vip",
+    "pages/guide/guide",
+    "pages/extract/extract",
+    "pages/details/details",
+    "pages/vip/vip",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": " ",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home - click.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my - click.png",
+        "text": "我的"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#000",
+    "color": "#000",
+    "borderStyle": "white",
+    "position": "bottom"
+  }
+}

@@ -1,0 +1,157 @@
+/* pages/my_data/my_data.wxss */
+
+.heared {
+  width: 100%;
+  height: 360rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.heared .box {
+  box-sizing: border-box;
+  padding-top: 60rpx;
+  text-align: center;
+}
+
+.heared .box .tu {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  background: #ccc;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.heared .box .tu image {
+  width: 100%;
+  height: 100%;
+}
+
+.heared .box .text {
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  color: #292624;
+}
+
+.conten {
+  background: #fff;
+  padding: 0 32rpx;
+}
+
+.conten .top {
+  padding: 25rpx 0;
+  font-size: 32rpx;
+  color: #292624;
+  font-weight: bold;
+  border-bottom: 1rpx solid #b5b5b5;
+}
+
+.conten .bottom .cont {
+  padding: 25rpx 28rpx;
+  font-size: 30rpx;
+  color: #292624;
+  border-bottom: 1rpx solid #b5b5b5;
+}
+
+.conten .cont {
+  /* padding: 26rpx 0; */
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  justify-content: right;
+  height: 82rpx;
+  line-height: 82rpx;
+}
+
+.conten .cont .input {
+  width: 300rpx;
+  margin-left: 30rpx;
+  margin-top: 16rpx;
+}
+
+.bottom {
+  padding: 25rpx 28rpx;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1rpx solid #b5b5b5;
+}
+
+.bottom .left text {
+  float: left;
+  margin-right: 10rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  display: inline-block;
+  width: 185rpx;
+  text-align: justify;
+}
+
+.bottom .left .as {
+  width: 0;
+  margin-right: 34rpx;
+}
+
+#text {
+  width: 140rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom .left text::after {
+  content: '';
+  display: inline-block;
+  padding-left: 100%;
+}
+
+.bottom .left view {
+  margin-left: 30rpx;
+  width: 250rpx;
+  height: 30rpx;
+  /* background: red; */
+  float: left;
+}
+
+.bottom .left input {
+  width: 345rpx;
+  height: 40rpx;
+  color: #666;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+
+.footer .button{
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+  border: 2rpx solid #000;
+  margin: 20rpx auto;
+}
+
+.footer1{
+    background: #fff;
+      padding: 30rpx;
+      box-sizing: border-box;
+      border: 1px dashed #b5b5b5;
+}
+.footer1 .text{
+  text-align: center;
+    text-decoration: underline;
+    font-size: 22rpx;
+    color: #292624;
+    margin-bottom: 60rpx;
+    margin-bottom: 30rpx;
+}
+#button{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap; 
+}
+#button button{
+  width:100%;
+height:80rpx;
+background:#f19149;
+border-radius:5rpx;
+font-size:34rpx;
+line-height:80rpx;
+
+}

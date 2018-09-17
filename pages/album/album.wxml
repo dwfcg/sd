@@ -1,0 +1,21 @@
+<!--pages/album/album.wxml-->
+<view class='album'>
+  <view class='tu' data-index='{{key}}' bindtap="bindtapFunc" wx:for='{{img}}' wx:for-index='key'>
+    <image src='{{item.url}}' data-id="{{item.id}}" ></image>
+    
+    <view class='active' hidden='{{!item.hidden}}'>
+      <image src='../../icon/gou.png'></image>
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view class='left' bindtap='upload'>
+    <view class='heng'></view>
+    <view class='shu'></view>
+  </view>
+  <view class='center' bindtap='upload'>选择</view>
+  <view class='right' bindtap='del'>
+    <image src='../../icon/dustbin@2x.png'></image>
+  </view>
+
+</view>

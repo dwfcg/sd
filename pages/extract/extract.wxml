@@ -1,0 +1,49 @@
+<!--pages/extract/extract.wxml-->
+<view class='heared'>
+  <view class='box'>
+    <view class='tu'>
+      <image src='{{userInfo.head_img}}'></image>
+    </view>
+    <view class='text'>{{userInfo.nickname}}</view>
+  </view>
+</view>
+
+<view class='section'>
+  <view>账户余额
+    <text>{{userInfo.money?userInfo.money.drawal:0}}</text>
+  </view>
+  <view>可提现
+    <text>{{userInfo.money?userInfo.money.drawal:0}}</text>
+  </view>
+</view>
+ <form bindsubmit="formSubmit">
+<view class='footer'>
+  <view class='bottom'>
+    <view class='left'>
+      <text>提现账号：</text>
+      <input type='text' name="account" value="{{userInfo.money?userInfo.money.account:''}}" placeholder='绑定账号（支付宝）'></input>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='left'>
+      <text>账户名：</text>
+      <input type='text' name="account_name" value="{{userInfo.money?userInfo.money.account_name:''}}" placeholder='请输入账户名'></input>
+    </view>
+  </view>
+  <view class='center'>
+    <text>提现：</text>
+    <input type='text' name="money" placeholder='请输入提现金额' placeholder-style='font-size:26rpx;'></input>
+  </view>
+  <button id='button' formType="submit" >确认</button>
+  <view class='bottom1'>
+    <view class='box'>
+      <view class='top'>提示:</view>
+      <view class='top'>1、一个账号只能绑定一个(支付宝）提现账号</view>
+      <view class='top'>2、每周星期一和星期五处理提现</view>
+
+    </view>
+
+  </view>
+  
+</view>
+</form>

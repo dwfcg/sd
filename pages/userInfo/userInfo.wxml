@@ -1,0 +1,118 @@
+<!--pages/my_data/my_data.wxml-->
+<view class='heared'>
+  <view class='box'>
+    <view class='tu'>
+      <image src='{{userInfo.head_img}}'></image>
+    </view>
+    <view class='text'>{{userInfo.nickname}}</view>
+  </view>
+</view>
+ <form bindsubmit="formSubmit">
+<view class='conten'>
+  <view class='top'>个人资料</view>
+  <view class='bottom'>
+    <view class='left'>
+      <text>用户ID</text><text class='as'>:</text>
+      <text>{{userInfo.nickname}}</text>
+    </view>
+  </view>
+
+  <view class='bottom'>
+    <view class='left'>
+      <text>淘宝账号</text><text class='as'>:</text>
+      <input type='text' name="name" value="{{taobao.name}}" placeholder='请填写你的淘宝账号'></input>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='left'>
+      <text>账号等级</text><text class='as'>:</text>
+      <input type='text' name="level" value="{{taobao.level}}" placeholder='请填写你的账号等级'></input>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='left'>
+      <text>账号注册年限</text><text class='as'>:</text>
+      <input type='text' name="year" value="{{taobao.year}}" placeholder='请填写你的账号注册年限'></input>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='left'>
+      <text>淘气值</text><text class='as'>:</text>
+      <input type='text' name="tq" value="{{taobao.tq}}" placeholder='请填写你的淘气值'></input>
+    </view>
+  </view>
+   <view class='bottom'>
+    <view class='left'>
+      <text>所在地</text><text class='as'>:</text>
+      <input type='text' name="addr" value="{{taobao.info.addr}}" placeholder='填写所在地（如四川省-成都）'></input>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='left'>
+      <text space="emsp">职业</text><text class='as'>:</text>
+      <input type='text' name="professional" value="{{taobao.professional}}" placeholder='请填写你的真实职业'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>身高</text><text class='as'>:</text>
+      <input type='text' name="height" value="{{taobao.info.height}}" placeholder='请填写你的真实身高'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>年龄</text><text class='as'>:</text>
+      <input type='text' name="age" value="{{taobao.info.age}}" placeholder='请填写你的真实年龄'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>三围</text><text class='as'>:</text>
+      <input type='text' name="swnum" value="{{taobao.info.swnum}}" placeholder='请填写你的真实三围数据'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>体重</text><text class='as'>:</text>
+      <input type='text' name="weight" value="{{taobao.info.weight}}" placeholder='请填写你的体重'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>衣服尺码</text><text class='as'>:</text>
+      <input type='text' name="clothesize" value="{{taobao.info.clothesize}}" placeholder='请填写你的衣服尺码'></input>
+    </view>
+  </view>
+    <view class='bottom'>
+    <view class='left'>
+      <text>鞋子尺码</text><text class='as'>:</text>
+      <input type='text' name="shoesize" value="{{taobao.info.shoesize}}" placeholder='请填写你的鞋子尺码范围'></input>
+    </view>
+  </view>
+   <view class='bottom'>
+    <view class='left'>
+      <text>审图联系方式</text><text class='as'>:</text>
+      <input type='text' name="qq" value="{{taobao.qq}}" placeholder='请填写你的QQ账号'></input>
+    </view>
+  </view>
+</view>
+<!-- 
+<view class='footer'>
+  <view class='tu'>
+  <scroll-view scroll-x="true" style="height:200rpx; white-space: nowrap;">
+    <view wx:for="{{img}}" class='tu1'>
+      <image src='{{item.url}}'></image>
+    </view>
+  </scroll-view>
+    
+  </view>
+  <view class='button' bindtap='upload'>+</view>
+</view>-->
+<view class='footer1'>
+ <!-- <view class='text'>请上传五张以上个人照片</view>-->
+  <view id='button'>
+  <button  formType="submit">保存</button>
+</view>
+
+</view>
+</form>

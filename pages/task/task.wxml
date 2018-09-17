@@ -1,0 +1,49 @@
+<!--pages/task/task.wxml-->
+<view class='heard'>
+  <view class="{{isActive==0?'active':''}}" data-id="0" bindtap='getTask'> 等待完成</view>
+  <view class="{{isActive==1?'active':''}}" data-id="1" bindtap='getTask'> 等待返款</view>
+  <view class="{{isActive==3?'active':''}}" data-id="3" bindtap="getTask">已完成</view>
+</view>
+<view class='box'>
+  <view class='conten' wx:for="{{taskInfo}}">
+    <view class='box1'>
+      <view class='left'><image src='{{item.task.main_img[0].url}}'></image></view>
+      <view class='right'>
+        <view>{{item.task.cate.cate}}</view>
+        <view>店铺名：
+          <text>{{item.task.store.store_name}}</text>
+        </view>
+        <view>搜索方式：
+          <text>{{item.task.search.type}}</text>
+        </view>
+        <view>付款方式：
+          <view>{{item.task.isCard?'':"不"}}支持信用卡、{{item.task.isHb?'':"不"}}支持花呗</view>
+        </view>
+
+        <view>佣金：
+          <text>{{item.task.pay_price}}</text>
+        </view>
+        <view>QQ：
+          <text>{{item.task.store.qq}}</text>
+        </view>
+
+      </view>
+
+    </view>
+    <view class='suosu'>
+      <view class="left" style="border:none;width:80%;height:100rpx;">
+        <text> 搜索关键词：</text>
+        <text class='text '>{{item.task.keyword}}</text>
+      </view>
+      <view class="right" style="border:none;width:20%;height:100rpx;text-align:center">
+        <text data-key="{{item.task.keyword}}"  bindtap='copyTBL' class='button' style="display:block;width:100%;line-height:50rpx;height:50rpx;text-align:center;background: #f19149;">复制</text>
+      </view>
+      
+    
+    </view>
+
+    <button wx:if="{{isActive==0 && item.user_status==0}}" data-status="4" data-id="{{item.id}}" bindtap='getMoney' id='button'>已下单</button>
+    <button wx:if="{{isActive==0 && item.user_status==4}}" data-status="5" data-id="{{item.id}}" bindtap='getMoney' id='button'>已晒图</button>
+    <button wx:if="{{isActive==0 && item.user_status==5}}" data-status="1" data-id="{{item.id}}" bindtap='getMoney' id='button'>申请返款</button>
+  </view>
+</view>

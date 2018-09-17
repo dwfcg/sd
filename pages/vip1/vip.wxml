@@ -1,0 +1,26 @@
+<!--pages/vip/vip.wxml-->
+<view class='heard'><image src='../img/banner2.png'></image></view>
+
+<view class='conten'>
+<view class='text'>
+<view class='left'></view>
+开通会员
+<view class='right'></view>
+</view>
+  <view class='top'>
+    <image src='../img/vip.png'></image>
+    <button id='button'>立即开通</button>
+  </view>
+</view>
+<view class='down'><image src='../img/down@2x.png'></image></view>
+<view class='tishi'><image src='../img/848239597471441404.png'></image></view>
+<view class='footer'>
+  <view class='top'>会员特权：</view>
+  <view class='texts'>
+    <view>1、成为会员拥有接单权限,轻松赚佣金</view>
+    <view>2、可免费领取试用活动商品</view>
+    <view>3、可成本价抢拍高价值商品</view>
+    <view>4、可绑定6个淘宝账号接单</view>
+    <view>5、可邀请好友注册赚取100佣金返现</view>
+  </view>
+</view>

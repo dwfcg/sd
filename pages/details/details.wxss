@@ -1,0 +1,103 @@
+/* pages/details/details.wxss */
+
+.box {
+  padding: 0 20rpx;
+  background: #fff;
+}
+
+.top {
+  padding: 25rpx 36rpx;
+  font-size: 30rpx;
+}
+
+.top text {
+  font-size: 26rpx;
+}
+
+.conten {
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.heard {
+  padding: 40rpx 0;
+  background: #fff;
+  border-bottom: 1rpx solid #b5b5b5;
+}
+
+.heard .tu {
+ width:710rpx;
+height:710rpx;
+border:1rpx solid #b5b5b5;
+margin:-40rpx auto 20rpx;
+
+
+  /*
+  width:750rpx;
+height:750rpx;
+border:1rpx solid #b5b5b5;
+margin:0 -20rpx 20rpx;
+
+  */
+}
+
+.heard .money {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  padding: 0 105rpx;
+}
+swiper{
+  height:100%;
+}
+.name, .Keyword, .mode {
+  padding: 0 105rpx;
+  font-size: 26rpx;
+  margin-top: 30rpx;
+}
+
+.demand {
+  background: #fff;
+  font-size: 26rpx;
+  padding: 40rpx 105rpx;
+  border-bottom: 1rpx solid #b5b5b5;
+}
+
+.demand view {
+  margin-bottom: 30rpx;
+}
+
+.shot {
+  background: #fff;
+ /* padding: 40rpx;
+  border-bottom: 1rpx solid #b5b5b5;*/
+}
+
+.shot .top {
+  font-size:30rpx;
+
+margin-left:65rpx;
+
+}
+
+.shot .text {
+width:510rpx;
+height:180rpx;
+margin:0rpx auto;
+font-size:26rpx;
+
+
+}
+
+.shot .tu {
+  width: 510rpx;
+  height: 360rpx;
+  margin: 40rpx auto;
+  border: 1rpx solid #000;
+}
+#button{
+ height:80rpx;
+line-height:80rpx;
+font-size:26rpx;
+background:#f19149;
+}

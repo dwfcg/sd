@@ -1,0 +1,65 @@
+/**index.wxss**/
+
+.banner{
+  width:100%;
+  height:360rpx;
+}
+.banner image{
+  height:100%;
+  width:100%;
+}
+.list{
+  background: #fff;
+  width:710rpx;
+  height:880rpx;
+  margin-top:20rpx;
+ border-radius: 20rpx;
+}
+.list_title{
+  margin-top:40rpx;
+  margin-left:12rpx;
+  width:686rpx;
+  height:50rpx;
+  border-bottom: solid 1rpx #b5b5b5;
+}
+.list_title_item{
+  font-size: 28rpx;
+  color:#292624;
+  margin-left:46rpx;
+  width:131rpx;
+  height:48rpx;
+  text-align: center;
+}
+.active{
+  border-bottom: solid 5rpx #33cccc;
+}
+.list_con{
+  margin-top:20rpx;
+  margin-left:46rpx;
+  width:618rpx;
+  height:800rpx;
+}
+.list_con_item{
+  width:280rpx;
+  height:354rpx; 
+  margin-bottom: 40rpx;
+}
+.list_con_image{
+   width:280rpx;
+  height:280rpx;
+   background: #ccc;
+}
+.title{
+  margin-top:12rpx;
+   font-size: 22rpx;
+   color:#292624;
+}
+.money{
+  color:#ff2535 !important;
+}
+
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}

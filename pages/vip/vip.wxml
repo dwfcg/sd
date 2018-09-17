@@ -1,0 +1,32 @@
+<!--pages/vip/vip.wxml-->
+<view class='heard'>
+<swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{banner.item}}">
+        <swiper-item>
+          <image src="{{item.img.url}}" class=""/>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+
+<view class='conten'>
+  <view class='top'>
+    <image src="{{vip.item[0].img.url}}"></image>
+  </view>
+  <!-- 
+  <view class='top'>
+    <view class='text'>299元终身会员</view>
+    <button>立即开通</button>
+  </view>-->
+</view>
+
+<view class='footer'>
+  <view class='top'>会员特权：</view>
+  <view class='texts'>
+    <view>1、成为会员拥有接单权限,轻松赚佣金</view>
+    <view>2、可免费领取试用活动商品</view>
+    <view>3、可成本价抢拍高价值商品</view>
+    <view>4、可绑定6个淘宝账号接单</view>
+    <view>5、可邀请好友注册赚取100佣金返现</view>
+  </view>
+</view>

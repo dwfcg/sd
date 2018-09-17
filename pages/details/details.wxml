@@ -1,0 +1,70 @@
+<!--pages/details/details.wxml-->
+<view class='box'>
+  <view class='top'>{{taskInfo.cate.cate}}
+    <text></text>
+  </view>
+</view>
+
+<view class='conten'>
+  <view class='heard'>
+    <view class='tu'>
+      <swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{main_img}}">
+        <swiper-item>
+          <image src="{{item.url}}" class=""/>
+        </swiper-item>
+      </block>
+      </swiper>
+      
+    </view>
+    <view class='money'>
+      <view class='mone1'>￥
+        <text>{{taskInfo.deal_price}}</text>
+      </view>
+      <view class='mone2'>佣金
+        <text>{{taskInfo.pay_price}}</text>
+      </view>
+    </view>
+    <!--
+    <view class='name'>店铺名：
+      <text>{{taskInfo.store.store_name}}</text>
+    </view>-->
+    <view class='Keyword'>搜索关键词：
+      <text>{{taskInfo.keyword}}</text>
+    </view>
+    <view class='mode'>搜索方式：
+      <text>{{taskInfo.search.type}}</text>
+    </view>
+
+  </view>
+  <view class='demand'>
+    <view>要求：
+      <text></text>
+    </view>
+    <view class='sex'>性别：
+      <text wx:if="{{taskInfo.sex==0}}">不限</text>
+       <text wx:if="{{taskInfo.sex==1}}">男</text>
+       <text wx:if="{{taskInfo.sex==2}}">女</text>
+    </view>
+    <view class='age'>年龄：
+      <text>{{taskInfo.agemin}}-{{taskInfo.agemax}}</text>
+    </view>
+    <view class='card'>付款方式：
+      <text>{{taskInfo.is_card==1?'':'不'}}支持信用卡、{{taskInfo.is_hb==1?'':'不'}}支持花呗</text>
+    </view>
+
+  </view>
+  <view class='shot' wx:if="{{taskInfo.shoot}}">
+    <view class='top'>拍摄要求</view>
+    <view class='text'>{{taskInfo.shoot}}</view>
+  </view>
+    <view class='shot' >
+    <view wx:if="{{taskInfo.type_img.length!=0 && taskInfo.type_img!=null}}">
+     <view class='top'>搭配风格参考</view>
+      <image  wx:for="{{taskInfo.type_img}}" mode="widthFix" src='{{item.url}}' style="width:710rpx;"></image>
+    </view>
+   
+  <button id='button' bindtap='applyTask'>申请任务</button>
+    </view>
+  
+</view>

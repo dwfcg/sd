@@ -1,0 +1,97 @@
+<view class="container">
+  <view class="top">
+    <view class="headInfo">
+      <view class="headImg">
+        <image src="{{userInfo.head_img}}"></image>
+      </view>
+      <view class="nickname">
+        {{userInfo.nickname}}
+      </view>
+    </view>
+  </view>
+
+
+  <view class="menu">
+    <view wx:for="{{status}}" bindtap='toTask' data-count="{{item.count}}" data-status="{{item.status}}" class="menu_list left">
+      {{item.title}}
+      <text style="color:#ff4e00">{{item.count}}</text>
+    </view>
+  </view>
+
+  <view class="get_money">
+    <view class="right">
+      提现
+    </view>
+    <view class="get_money_list">
+      <view class="get_money_list_item left">
+        佣金：{{userInfo.money?userInfo.money.integral:0}}元
+      </view>
+      <view class="get_money_list_item left" bindtap='toExtract'>
+        可提现：{{userInfo.money?userInfo.money.drawal:0}}元
+      </view>
+    </view>
+  </view>
+
+  <view class="user_list">
+    <view class="user_list_item" bindtap='toUserInfo'>
+      <view class="left user_list_item_con">
+        个人资料
+      </view>
+      <view class="right user_list_item_con">
+        完善个人资料 >
+      </view>
+    </view>
+     <view class="user_list_item" bindtap='toAlbum' >
+      <view class="left user_list_item_con">
+        个人相册
+      </view>
+      <view class="right user_list_item_con">
+        管理个人相册 >
+      </view>
+    </view>
+    <view class="user_list_item" bindtap='toGuide'>
+      <view class="left user_list_item_con">
+        用户指南
+      </view>
+      <view class="right user_list_item_con">
+        赚钱秘诀都在这里 >
+      </view>
+    </view>
+    <!--
+    <view class="user_list_item" style='border:none;' bindtap='toVip'>
+      <view class="left user_list_item_con">
+        开通会员
+      </view>
+      <view class="right user_list_item_con" >
+        开通会员接单赚钱 >
+      </view>
+    </view>-->
+  </view>
+
+  <view class="code_list">
+    <view class="code_con">
+      邀请码:<text style="margin-left:30rpx;">{{userInfo.code}}</text>
+    </view>
+    <view class="code_con">
+      <text class="left">绑定邀请码：</text> 
+      <view wx:if="{{userInfo.inviteCode}}">
+        <text style="margin-left:30rpx;">{{userInfo.inviteCode}}</text>
+      </view>
+      <view wx:else>
+        <input class="left code_input" bindinput="getCode" placeholder="请输入邀请码" />
+        <button class="right code_btn" bindtap='setCode'>确认绑定</button>
+      </view>
+      
+    </view>
+    <view class="code_con" style="width:450rpx;margin-left:150rpx;text-align:center">
+      绑定邀请码领取3次接单体验权限
+    </view>
+    <view class="code_con" style="line-height:40rpx;width:450rpx;margin-left:150rpx;text-align:center;border:none;">
+      分享小程序,邀请好友注册后绑定你的邀请码开通会员就可获得100元佣金返现
+    </view>
+  </view>
+
+</view>
+
+
+

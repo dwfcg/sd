@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- banner -->
+   <view class="banner">
+      <swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{bannerItem}}">
+        <swiper-item>
+          <image src="{{item.img.url}}" class=""/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!-- 任务列表 -->
+  <view class="list">
+    <view class="list_title">
+
+      <view wx:for="{{cate}}" bindtap='getTaskByCate' data-id="{{item.id}}"  class="list_title_item left {{isActive == item.id?'active':''}} " style='{{index==0?"margin-left:21rpx;":""}}'>
+        {{item.cate}}
+      </view>
+    </view>
+    <view class="list_con">
+    <scroll-view scroll-y style="height: 780rpx;" bindscrolltolower="lower">
+    <view wx:for="{{taskList}}" data-id="{{item.id}}" bindtap='toDetails' class="list_con_item left" style='{{index%2!=0?"margin-left:58rpx;":""}}'>
+        <view class="list_con_image">
+          <image src='{{item.main_img[0].url}}'></image>
+        </view>
+        <view class="title">
+          {{item.cate.wx_title}}
+        </view>
+        <view class="money title">
+          ¥{{item.deal_price}}
+        </view>
+      </view>
+  </scroll-view>
+    </view>
+  </view>
+
+</view>

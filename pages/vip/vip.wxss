@@ -1,0 +1,56 @@
+/* pages/vip/vip.wxss */
+.heard{
+  background: #fff;
+  height: 360rpx;
+  text-align: center;
+  margin-top: 20rpx;
+
+}
+.heard image{
+  width: 100%;
+  height: 100%;
+}
+swiper{
+  height:100%;
+
+}
+.conten{
+  padding: 30rpx 50rpx;
+}
+.conten .top{
+  height: 245rpx;
+  background: #fff;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+.conten .top .text{
+  text-align: center;
+  line-height: 130rpx;
+  font-weight: bold;
+}
+
+.conten button{
+  width: 180rpx;
+  height: 48rpx;
+  background: #f19149;
+  font-size: 26rpx;
+  border-radius:5rpx;
+  line-height: 48rpx; 
+  float: right;
+  margin-top: 65rpx;
+}
+
+.footer{
+  padding:0 140rpx;
+    margin-bottom: 42rpx;
+}
+.footer .top{
+  font-size: 27rpx;
+}
+.footer .texts{
+  font-size: 27rpx;
+  padding-left: 10rpx;
+}
+.footer .texts view{
+  padding: 20rpx 0;
+}
